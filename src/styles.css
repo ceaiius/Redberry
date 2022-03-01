@@ -128,7 +128,7 @@ h2{
     margin: 30px 0;
 }
 
-input{
+input {
     width: 455px;
     height: 54px;
     background: #FFFFFF;
@@ -138,7 +138,7 @@ input{
     
 }
 
-.fa-solid{
+.fa-circle-chevron-right{
     color: #FE3B1F;
     padding-top: 5%;
     padding-left: 50%;
@@ -147,3 +147,96 @@ input{
 }
 
 
+/* Technical Skillset page */
+
+
+.tech-h1{
+    
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FE3B1F;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.tech-p{
+    padding-top: 10%;
+    font-family: "Montserrat", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 200%;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.tech-h1{
+    font-size: 64px;
+    color: #FE3B1F;
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    text-align: center;
+    line-height: 80px;
+    padding-top: 10%;
+}
+
+select{
+    width: 455px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+    padding-left: 57px;
+    font-style: italic;
+    
+}
+
+.experience-input{
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.experience-button{
+    width: 201px;
+    height: 32px;
+    background-color: #FE3B1F;
+    color: white;
+    font-family: "Montserrat", cursive;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 56%;
+}
+
+.card {
+    width:447px;
+    height: 48px;
+    font-family: "Montserrat", cursive;
+    font-style: italic;
+    
+    font-size: 14px;
+    line-height: 17px;
+    
+    border: 1px solid #525557;
+    box-sizing: border-box;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+
+.fa-circle-minus{
+    color:#FE3B1F;
+    padding-left: 30px;
+}
