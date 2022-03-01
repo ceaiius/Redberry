@@ -1,0 +1,58 @@
+body{
+    background-image: url(/public/assets/stars.svg);
+    background-color: black;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10vh;
+    
+}
+
+h1{
+    font-size: 96px;
+    color: #FE3B1F;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    line-height: 120px;
+}
+
+.rocketman{
+    background-image: url(/public/assets/rocketman.svg);
+    width: 536px;
+    height: 412px;
+    
+}
+
+button{
+    width: 395px;
+    height: 79px;
+    background-color:#FE3B1F;
+    border-radius: 50px;
+    font-family: "Montserrat", cursive;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    padding-top: 2vh;
+    font-family: "Montserrat", cursive;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
