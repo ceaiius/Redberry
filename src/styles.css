@@ -135,7 +135,7 @@ input {
     border: 1px solid #525557;
     box-sizing: border-box;
     padding-left: 57px;
-
+    font-family: "Montserrat", cursive;
 }
 
 .iconsDiv {
@@ -348,3 +348,77 @@ label {
 
 /* What About You page */
 
+.covidDivSecond{
+    padding-top: 10%;
+    
+}
+
+.textAreaDiv{
+    padding-top: 5%;
+}
+
+.textAreaInput{
+    width: 535px;
+    height: 122px;
+    padding-bottom:50px;
+}
+
+.textAreaInput2{
+    width: 535px;
+    height: 89px;
+    padding-bottom: 20px;
+}
+
+.h2InputDiv{
+    padding-top: 5%;
+}
+
+
+/* Submit page */ 
+
+.submitDiv{
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitButton{
+    width: 395px;
+    height: 79px;
+    background-color: #FE3B1F;
+    border-radius: 50px;
+    font-family: "Montserrat", cursive;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Last page */
+
+.thanksDiv{
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanksDiv h1{
+    font-size: 64px;
+    color: #FE3B1F;
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    text-align: center;
+    line-height: 80px;
+}

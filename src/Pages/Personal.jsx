@@ -1,7 +1,7 @@
 import React from "react";
-import Input from "./Input";
+import Input from "../Forms/Input";
 import {Link} from "react-router-dom"
-import PersonalSVG from "./SVGs/personal-svg";
+import PersonalSVG from "../SVGs/personal-svg";
 
 function Personal(){
 
