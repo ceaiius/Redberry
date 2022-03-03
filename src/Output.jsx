@@ -2,6 +2,7 @@ import React from "react";
 
 function Output(props){
 
+    // button that deletes the submitted input
     function handleClick(){
         props.onDelete(props.id);
     }
