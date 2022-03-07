@@ -34,7 +34,7 @@ function Tech(){
         <div className="personal-container">
         <div className="leftDiv">
             <h1 className="tech-h1">Tell us about your skills</h1>
-            <div className="inputDiv">
+            <div className="inputDiv2">
                 <SelectArea onAdd={addSkills}/>
                 {skills.map((skillItem,index)=>{
                     return  <div className="outputDiv"><Output
