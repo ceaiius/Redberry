@@ -42,8 +42,8 @@ function Submit(){
 
     return (
         <div className="submitDiv">
-            <Link style={style} to="/thanks"><button onClick={onSubmit} className="submitButton">Submit</button></Link>
-            <div><a><Link style={style} to="/about"><h2>go back</h2></Link></a></div>
+            <Link style={style} to="/Redberry/thanks"><button onClick={onSubmit} className="submitButton">Submit</button></Link>
+            <div><a><Link style={style} to="/Redberry/about"><h2>go back</h2></Link></a></div>
         </div>
     )
 }
