@@ -1,6 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Applications(){
+    const style = {
+        color:"white",
+        textDecoration : "none"
+    }
     return(
         <div className="appDiv">
             <h1>Submitted Application</h1>
@@ -77,6 +82,9 @@ function Applications(){
                     
                 </div>
                 
+            </div>
+            <div>
+                <div ><a><Link style={style} to="/Redberry"><h2 className="backDiv">go back</h2></Link></a></div>
             </div>
         </div>
     )
