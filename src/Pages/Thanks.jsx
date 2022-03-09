@@ -2,7 +2,7 @@ import React from "react";
 
 function Thanks(){
     setTimeout(()=>{
-        window.location.replace("/")
+        window.location.replace("/Redberry/")
     }, 3000)
     return(
         <div className="thanksDiv">
