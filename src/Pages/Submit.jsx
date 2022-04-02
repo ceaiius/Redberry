@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import Personal from "./Personal";
+import { FormContext } from "../Forms/FormContext";
 
 function Submit(){
+
+    const {fName,lName,email,phone,skill,experience, work, covid, vaccine, date, lastVaccine,attend, special, talk} = useContext(FormContext);
+
     const style = {
         color:"white",
         textDecoration : "none"
@@ -15,25 +18,25 @@ function Submit(){
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ 
-                "token": "76977183-c0e1-4f49-b51d-34e590260b10",
-                "first_name": "gela",
-                "last_name": "gelashvili",
-                "email": "gelashvili@gela.ge",
-                "phone": "+995591933382",
+                "token": "4c6558a2-3c74-4128-af54-95722a5a51c3",
+                "first_name": fName,
+                "last_name": lName,
+                "email": email,
+                "phone": phone,
                 "skills": [
                     {
-                    "id": 1,
-                    "experience": 3
+                    "id": skill,
+                    "experience":experience
                     }
                 ],
-                "work_preference": "from_home",
-                "had_covid": true,
-                "had_covid_at": "2022-02-23",
-                "vaccinated": true,
-                "vaccinated_at": "2022-02-23",
-                "will_organize_devtalk": true,
-                "devtalk_topic": "I would ...",
-                "something_special": "I am special!"
+                "work_preference": work,
+                "had_covid": covid,
+                "had_covid_at": date,
+                "vaccinated": vaccine,
+                "vaccinated_at": lastVaccine,
+                "will_organize_devtalk": attend,
+                "devtalk_topic": talk,
+                "something_special": special
              })
         };
         fetch('https://bootcamp-2022.devtest.ge/api/application', requestOptions)
@@ -42,6 +45,7 @@ function Submit(){
 
     return (
         <div className="submitDiv">
+            
             <Link style={style} to="/Redberry/thanks"><button onClick={onSubmit} className="submitButton">Submit</button></Link>
             <div><a><Link style={style} to="/Redberry/about"><h2>go back</h2></Link></a></div>
         </div>
